@@ -59,6 +59,7 @@ struct ContentView: View {
         }
         .padding()
     }
+    // 67
     func clockEvent() {
         guard let url = URL(string: "https://avkicrmwbf.execute-api.us-west-1.amazonaws.com/default/clockIn") else {
             return
